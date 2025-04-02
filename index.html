@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+
+        *{
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        html,body{
+            height: 100%;
+            width: 100%;
+        }
+        .container{
+            color: white;
+            width: 100%;
+            height: 100%;
+            padding: 20px;
+            background-color: rgb(3, 3, 19);
+        }
+        /* .first-cont{
+            width: 100%;
+            height: 100%;
+        }
+        .second-cont
+        {
+            width: 100%;
+            height: 100%;
+        } */
+        img{
+            border-radius: 25px;
+        }
+        .images{
+            display: flex;
+            justify-content: center;
+        }
+        .heading{
+            margin-top: 25px;
+            text-transform: uppercase;
+            color: purple;
+        }
+        .s-heading{
+            font-size: 40px;
+            margin-top: 10px;
+        }
+        .text{
+            margin-top: 10px;
+            text-align: left;
+            font-size: 18px;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        }
+       
+        .btn{
+            margin-top: 25px;
+            text-align: center;
+            padding: 15px;
+            width: 160px;
+            background-color: bisque;
+            border-radius: 30px;
+        }
+       @media(min-width:1024px){
+        .container{
+            width: 100%;
+            height: 100%;
+            flex-direction: row;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            position: relative;
+        }
+        .heading{
+            font-size: 22px;
+        }
+        .text{
+            font-size: 25px;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        }
+        .first-cont{
+            position:relative;
+            top: 5px;
+            width: 50%;
+            height: 50%;
+            order: 1;
+        }
+        .second-cont{
+            position:relative;
+            top: 5px;
+            left: 50px;
+            width: 50%;
+            height: 50%;
+            order: 0;
+        }
+       }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="first-cont">
+
+            <div class="images">
+                <img src="airpods.jfif" alt="" srcset="" width="260px">
+            </div>
+
+        </div>
+
+        <div class="second-cont">
+
+            <p class="heading">MagicalBuds</p>
+            <h2 class="s-heading">Magic runs in the family</h2>
+            <p class="text">Airpods  deliver an unparalleled listening
+                 experience with all your devices. 
+                 Every model connects effortlessly 
+                 and packs rich, high-quality sound 
+                 into inovative wireless designs.iluptas! piditate nesciunt aspernatur </p>
+            <div class="btn-div">
+    
+                <button class="btn">View more</button>
+            </div>
+
+        </div>
+    </div>
+
+</body>
+</html>
